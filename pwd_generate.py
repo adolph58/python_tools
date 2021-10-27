@@ -8,7 +8,7 @@ def get_pwd():
     for i in range(1, 17):
         num = random.randint(0, 54)
         pwd += repo[num]
-    return pwd;
+    return pwd
 
 for j in range(1, 50):
     print(get_pwd())
