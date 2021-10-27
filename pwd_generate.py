@@ -10,5 +10,5 @@ def get_pwd():
         pwd += repo[num]
     return pwd
 
-for j in range(1, 50):
+for j in range(1, 51):
     print(get_pwd())
